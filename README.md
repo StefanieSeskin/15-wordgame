@@ -1,4 +1,7 @@
-# Wordgame
+
+
+
+<!-- # Wordgame
 
 ## Description
 
@@ -6,10 +9,37 @@ You know the word-guessing game hangman? Well that's what you'll be building wit
 
 Basically, it works like this:
 
+You get 5 incorrect guesses.  Life decreases by one -->
+
+PAGE HAS BUTTONS CONTAINING EACH LETTER OF THE ALPHABET
+SIX STARS ARE DISPLAYED ARE ON THE PAGE (Full life)
+(HIDDEN "RESET" BUTTON)
+
 - The app starts by choosing a random word
+Underscores appear on page - # of underscores = number of letters in random word
+
 - The player can guess a single letter at a time
-- The player has a fixed number of turns in which to guess all of the letters in the word
+by clicking a button
+
+Letter in word?  Update underscore with letter chosen
+THEY ENTER NEXT LETTER
+
+OR 
+
+Letter NOT in the word?  Remove a star from page
+THEY ENTER NEXT LETTER
+
+
+- The player can keep guessing 
+
+If 6 wrong guesses, game ends, USER NOTIFIED "GAME OVER"
+
+When all letters are filled out, USER NOTIFIED "YOU WIN"
+
+RESET BUTTON APPEARS ON PAGE?
+
 - The app should indicate when the player has won or lost
+
 
 Please feel free to get fancy with it!
 
